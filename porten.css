@@ -1,0 +1,437 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+ul, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h4 {
+    margin: 0;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 80px 0 40px 0;
+    text-transform: uppercase;
+
+}
+
+.contact {
+    background-color: #000000;
+    color: #969696;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.contactInfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    width: 80%;
+    margin: auto;
+}
+
+.registration {
+    padding: 14px 20px;
+    color: #969696;
+}
+
+.registration:hover {
+    background-color: #1f1f1f;
+}
+
+.header {
+    background-color: #0F0F0F;
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.headerMenu {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    padding: 30px;
+}
+
+.headerName {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 18px;
+}
+
+.headerSett {
+    color: #ffffff;
+    padding: 30px 20px;
+}
+
+.headerSett:hover {
+    background-color: #1f1f1f;
+}
+
+.emblem {
+    background-image: url(./img/Rectangle\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'PT Sans', sans-serif;
+    color:#ffffff;
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 150px;
+
+}
+
+.emblemPorten {
+    margin: auto;
+    border: 4px solid #ffffff;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.emblemPorten .emblemPortenWrapper {
+    padding: 70px 30px;
+}
+
+.emblemPorten .emblemName {
+    width: fit-content;
+    margin: auto;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 95px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.emblemPorten .emblemLocation {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.emblemText {
+    width: 50%;
+    margin: auto;
+}
+
+.catalogue {
+    display: flex;
+}
+
+.catalogueSeason {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Playfair Display', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    line-height: 26px;
+    padding-top: 93px;
+    width: 60%;
+}
+
+.catalogueSeason h2 {
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.discriptionLine {
+    width: 120px;
+    height: 1px;
+    border-top: 1px solid #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.catalogueSeason .discriptionClock {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 40px 90px 40px;
+    gap: 2.5%;
+}
+
+.catalogueSeason .img-clock {
+    padding: 50px 0;
+}
+
+.catalogueSeason .img-clock:hover {
+    background-color: #191B1C;
+}
+
+.clock-name {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.clock-price {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.catalogue-collection {
+    background-image: url(./img/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.catalogue-collection h2 {
+    font-family: 'Playfair Display', sans-serif;
+    margin: 450px 0 30px 0;
+    text-transform: uppercase;
+}
+
+.catalogue-collection .catalogue-link {
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;
+    margin: 30px 0 0 0;
+    padding: 12px 30px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.catalogue-collection .catalogue-link:hover {
+    background-color: #191B1C;
+}
+
+.collection-old {
+    display: flex;
+}
+
+.collection-old .img-dress {
+    background-image: url(./img/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+}
+
+.collection-old .collection-old-link {
+    width: 60%;
+    background-color: #000000;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.collection-old-link h2 {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 100px 0 40px 0;
+}
+
+.collection-old-link p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 40px auto 60px auto;
+    width: 60%;
+}
+
+.collection-old-link button {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #000;
+    text-transform: uppercase;
+    border: 1px solid #ffffff;
+    padding: 12px 30px;
+    cursor: pointer;
+    margin: 0 0 100px 0;
+}
+
+.collection-old-link button:hover {
+    background-color: #191B1C;
+}
+
+.new-arrivals {
+    width: 80%;
+    background-color: #000000;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Playfair Display', sans-serif;
+    color: #ffffff;
+}
+.new-arrivals h2 {
+    font-weight: 700;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin: 0 0 40px 0;
+    padding-top: 120px ;
+}
+
+.new-arrivals .arrivals-product {
+    margin: 80px auto 0 auto;
+    padding-bottom: 100px;
+}
+
+.new-arrivals .arrivals-link {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.new-arrivals .img-clock {
+    padding: 50px 0;
+}
+
+.new-arrivals .img-clock:hover{
+    background-color: #191B1C;
+}
+
+.new-arrivals .clock-name{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.new-arrivals .clock-price{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.our-brands {
+    background-color: #0F0F0F;
+}
+
+.brands {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.brands h2 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0;
+    padding: 60px 0 40px 0;
+}
+
+.brands-link {
+    display: flex;
+    padding: 40px 0 80px 0;
+    justify-content: space-evenly;
+}
+
+.footer {
+    color: #ffffff;
+}
+
+.footer-link {
+    background-image: url(./img/Rectangle\ 15.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-item {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.footer-text {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer-info {
+    width: 31%;
+    margin: 0 0 100px 0;
+}
+
+.footer-categories {
+    width: 31%;
+}
+
+.categories-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+}
+
+.categories-item p {
+    cursor: pointer;
+}
+
+.category {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px 20px 10px 20px;
+}
+
+.category:hover {
+    background-color: #191B1C;
+}
+
+.footer-distribution {
+    width: 31%;
+}
+
+.footer-distribution p {
+    margin: 0 0 40px 0;
+}
+
+.subscription {
+    display: flex;
+}
+
+.subscription input {
+    padding: 10px 0 10px 10px;
+    opacity: 0.4;
+}
+
+.subscription p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.subscription p:hover {
+    background-color: #191B1C;
+}
+
+.footer-discription {
+    width: 80%;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+
+
+
+
